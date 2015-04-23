@@ -14,7 +14,7 @@
     {
         static void Main(string[] args)
         {
-            // Class, Object, Access modifiers, 
+            // Class, Object, Access modifiers,
             var t1 = new Transaction("T0001", DateTime.Now, 1000, (decimal)4.2, (int)CurrencyEnum.GBP, false);
             var t2 = new Transaction("T0002", DateTime.Now, 2000, (decimal)3.8, (int)CurrencyEnum.EURO, true);
             t1.ShowTransaction();

@@ -119,7 +119,7 @@
             Console.WriteLine("\nTransaction: {0}", TransactionCode);
             Console.WriteLine("Date: {0}", Date);
             Console.WriteLine("Amount: {0}", GetAmount());
-            Console.WriteLine("Transaction detail: {0}", Detail.ToString());
+            Console.WriteLine("Transaction detail: {0}", Detail.exe());
         }
 
     }
